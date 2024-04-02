@@ -3,7 +3,7 @@ import van from "vanjs-core";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
-  const { div, textarea, table, tbody, tr, td, input, button } = van.tags;
+  const { div, textarea, table, tbody, tr, td, input } = van.tags;
 
   const text = van.state("");
 
