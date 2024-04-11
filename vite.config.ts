@@ -6,7 +6,7 @@ const manifest = defineManifest({
   name: "文字数カウント",
   description:
     "テキストボックスに入力された文字数をリアルタイムにカウントします。",
-  version: "1.0.0",
+  version: "1.0.1",
   icons: {
     16: "img/icon16.png",
     48: "img/icon48.png",
