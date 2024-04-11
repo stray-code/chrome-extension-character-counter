@@ -4,6 +4,7 @@ import { crx, defineManifest } from '@crxjs/vite-plugin'
 const manifest = defineManifest({
   manifest_version: 3,
   name: "文字数カウント",
+  description: "テキストボックスに入力された文字数をリアルタイムにカウントします。",
   version: "1.0.0",
   icons: {
     16: 'src/assets/img/icon16.png',
